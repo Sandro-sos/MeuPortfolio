@@ -1,0 +1,126 @@
+body {
+    background: linear-gradient(to bottom, black, #333333);
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 350px;
+}
+
+section {
+    padding: 20px;
+}
+
+.services, .products {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service, .product {
+    margin-bottom: 20px;
+}
+
+.service img, .product img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+
+.carousel-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-wrapper img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333333;
+}
+
+h2 {
+    text-align: center;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.social-buttons a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.facebook-button {
+    background-color: #3b5998; /* Cor do Facebook */
+}
+
+.twitter-button {
+    background-color: #4CAF50; /* Cor do Whatsapp */
+}
+
+.instagram-button {
+    background-color: #e4405f; /* Cor do Instagram */
+}
+
+.social-buttons img {
+    width: 250px; /* Ajuste o tamanho do ícone conforme necessário */
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: linear-gradient(to bottom, #333333, black);
+}
+
+tr:nth-child(even) {
+    background-color: black;
+}
